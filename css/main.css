@@ -1,0 +1,116 @@
+body{
+    padding-top: 70px;
+	padding-bottom: 100px
+}
+.navbar-text > a {
+	color:inherit;
+	text-decoration: none;
+}
+
+.jumbotron {
+	background: red;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+}
+
+.navbar-default {
+	background: #2C3E50;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+    border: 0px;
+    border-radius: 0px;
+}
+.navbar-default .navbar-brand {
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #18BC9C;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #FFFFFF;
+	background: #1A242F;
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+	color: #18BC9C;
+	background: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	background-color: #1A242F;
+	color: #FFFFFF;
+}
+
+.btn-primary {
+	background: #2C3E50;
+	border-color: #2C3E50;
+	color: #FFFFFF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+	color: #FFFFFF;
+	background: #1E2A36;
+	border-color: #161F29;
+}
+
+.home-thumb img:hover {
+	transform: scale(1.1);
+}
+
+.thumbnail img {
+	transition: all 0.3s ease 0s;
+	width: 100%;
+}
+
+.thumbnail {
+	overflow:hidden;
+}
+
+.bg-grey {
+	background: #F9F9F9;
+}
+
+.carousel {
+	padding-bottom: 20px;
+}
+.btn-primary {
+    min-height: 35px;
+    min-width: 100px; 
+    font-size: 15px;
+}   
+.h1Center{
+    text-align: center;
+}
+.centerBtn{
+    margin-left: 43%;
+}
+.thumbnail{
+	background-color: transparent;
+	border: none;
+}
+.footer{
+	background: #2C3E50; 
+}
