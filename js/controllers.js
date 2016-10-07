@@ -21,9 +21,7 @@ var portfolio = angular.module('portfolio.controllers', [])
 
 .controller('projectSingleController', ['$scope', '$state', '$stateParams', 'Projects',
 	function($scope, $state, $stateParams, Projects) {
-                console.log($stateParams.id)
         $scope.project = Projects.get($stateParams.id);
-        console.log($scope.project);
 
         }
 ])

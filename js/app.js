@@ -2,7 +2,7 @@ angular.module('portfolio', ['portfolio.controllers', 'portfolio.filters','portf
  'ngRoute','ui.router'])
 
 .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
-	$urlRouterProvider.otherwise('/')
+	$urlRouterProvider.otherwise('/main')
 	$stateProvider
 		.state('main', {
 			url: '/main',

@@ -8,7 +8,7 @@ body{
 }
 
 .jumbotron {
-	background: red;
+	background: #aadeee;
 }
 
 p {
@@ -113,4 +113,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer{
 	background: #2C3E50; 
+	max-height: 50px;
+}
+.spacer{
+	padding-bottom: 10px;
 }
