@@ -6,9 +6,9 @@ var portfolio = angular.module('portfolio.controllers', [])
 
         $scope.number = 3;
         $scope.getNumber = function(num) {
-            return new Array(num);   
+            return new Array(num);
         }
-        
+
 	}
 ])
 
@@ -25,5 +25,3 @@ var portfolio = angular.module('portfolio.controllers', [])
 
         }
 ])
-
-

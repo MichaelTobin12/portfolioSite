@@ -12,9 +12,14 @@
         <p>{{project.future}}</p>
         <p class="spacer"></p>
         <div ng-repeat="img in project.img_refs_pics" class="text-center">
-            <img src="http://s3images.coroflot.com/user_files/individual_files/302239_CauyLQoHZTkSJkkGnr3kVbFtw.jpg" alt="">
+          <div ng-if="project.id == 10">
+            <img src="{{img}}" alt="" WIDTH=630 HEIGHT=600>
             <p class="spacer"></p>
-            <img src="http://s3images.coroflot.com/user_files/individual_files/302239_CauyLQoHZTkSJkkGnr3kVbFtw.jpg" alt="">
+          </div>
+          <div ng-if="project.id != 10">
+            <img src="{{img}}" alt="" WIDTH=300 HEIGHT=500>
+            <p class="spacer"></p>
+          </div>
         </div>
     </div>
     <!-- SIDEBAR -->
