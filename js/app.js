@@ -10,7 +10,7 @@ angular.module('portfolio', ['portfolio.controllers', 'portfolio.filters','portf
 			controller: 'mainPageController',
 			controllerAs: 'mainCtrl'
 		})
-        .state('projects', {
+    .state('projects', {
 			url: '/projects',
 			templateUrl: '../views/projects.html',
 			controller: 'projectController',

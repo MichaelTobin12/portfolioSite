@@ -1,9 +1,8 @@
-
   <div class="row text-center" ng-controller="projectController">
     <div class="col-md-4" ng-repeat="project in allProjects">
         <h3>{{project.project}}</h3>
         <a href="#/projects/{{project.id}}" class="thumbnail home-thumb">
-        <img src="http://s3images.coroflot.com/user_files/individual_files/302239_CauyLQoHZTkSJkkGnr3kVbFtw.jpg" alt="Flow 4D Image">
+        <img src="{{project.img_refs_pics[0]}}" alt="Flow 4D Image">
       </a>
     </div>
 </div>
